@@ -9,7 +9,6 @@ import Registration from "./components/registration/registration";
 import Error from "./components/error/error";
 import HeaderNavigation from "./components/header/headerNavigation";
 import Counters from "./components/counters/counters";
-import Fades from "./components/fades/fades";
 
 class App extends Component {
   render() {
@@ -23,7 +22,6 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route path="/registration" component={Registration} />
             <Route path="/counters" component={Counters} />
-            <Route path="/fade" component={Fades} exact />
             <Route component={Error} />
           </Switch>
         </div>
