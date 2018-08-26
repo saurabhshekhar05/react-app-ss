@@ -44,6 +44,11 @@ class HeaderNavigation extends Component {
                   Counters
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink to="/lifecycle" exact className="nav-link">
+                  Lifecycle
+                </NavLink>
+              </li>
             </ul>
             <button className="btn btn-danger navbar-btn">Button</button>
           </div>

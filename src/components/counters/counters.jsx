@@ -28,6 +28,10 @@ class Counters extends Component {
   render() {
     return (
       <div>
+        <div>
+          <h4>Counters Page</h4>
+        </div>
+        <br />
         <button
           className="btn btn-primary btn-sm m-2"
           onClick={this.handleReset}

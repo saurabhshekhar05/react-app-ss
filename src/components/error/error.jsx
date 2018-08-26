@@ -5,7 +5,7 @@ class Error extends Component {
   render() {
     return (
       <div>
-        <h2>Error: Path does not exist.!!!!</h2>
+        <h4>Error: Path does not exist.!!!!</h4>
       </div>
     );
   }

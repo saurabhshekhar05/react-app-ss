@@ -4,13 +4,10 @@ class Registration extends Component {
   render() {
     return (
       <div>
-        <h2>Registration Page</h2>
+        <h4>Registration Page</h4>
       </div>
     );
   }
 }
 
 export default Registration;
-<div>
-  <h2>Registration Page</h2>
-</div>;
